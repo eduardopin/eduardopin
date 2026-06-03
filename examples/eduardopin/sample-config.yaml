@@ -1,0 +1,12 @@
+service: example-service
+environment: sandbox
+owner: platform-team
+cost_center: example-cost-center
+review:
+  security: least-privilege-required
+  reliability: rollback-plan-required
+  finops: tag-and-budget-required
+controls:
+  require_change_record: true
+  require_peer_review: true
+  allow_public_examples_only: true
