@@ -1,0 +1,22 @@
+name: docs-hygiene
+
+on:
+  pull_request:
+  push:
+    branches: [ main, master, develop, dev ]
+
+jobs:
+  markdown-hygiene:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check markdown files exist
+        run: |
+          count=$(find . -path ./.git -prune -o -name '*.md' -print | wc -l)
+          test "$count" -gt 0
+      - name: Check for local context artifacts
+        run: |
+          if git ls-files | grep -q '^.codex-repo-context.json$'; then
+            echo "Local context artifact must not be committed"
+            exit 1
+          fi
