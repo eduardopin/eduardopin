@@ -1,0 +1,27 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1200" y1="0" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.48" stop-color="#123B63"/>
+      <stop offset="1" stop-color="#0B1F33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="50" x2="1150" y1="270" y2="270" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="340" rx="28" fill="url(#g)"/>
+  <circle cx="1070" cy="-30" r="190" fill="#38BDF8" opacity="0.13"/>
+  <circle cx="90" cy="330" r="180" fill="#22C55E" opacity="0.10"/>
+  <g filter="url(#shadow)">
+    <text x="60" y="95" fill="#E5F3FF" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">Eduardo Pin</text>
+    <text x="60" y="142" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="600">Cloud • Platform Engineering • SRE • FinOps • DevSecOps</text>
+    <text x="60" y="190" fill="#D1D5DB" font-family="Segoe UI, Arial, sans-serif" font-size="21">AWS · Kubernetes · Terraform · GitHub Actions · Observability · Security · Databases</text>
+    <text x="60" y="235" fill="#F8FAFC" font-family="Consolas, monospace" font-size="20">Public portfolio: practical infrastructure libraries, runbooks, automation and engineering standards.</text>
+    <rect x="60" y="270" width="1080" height="6" rx="3" fill="url(#accent)"/>
+  </g>
+</svg>
