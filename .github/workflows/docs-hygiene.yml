@@ -14,9 +14,9 @@ jobs:
         run: |
           count=$(find . -path ./.git -prune -o -name '*.md' -print | wc -l)
           test "$count" -gt 0
-      - name: Check for local context artifacts
+      - name: Check for sensitive local files
         run: |
-          if git ls-files | grep -q '^.codex-repo-context.json$'; then
-            echo "Local context artifact must not be committed"
+          if git ls-files | grep -E '(^|/)\.env$|\.tfstate(\..*)?$'; then
+            echo "Sensitive local file pattern is tracked"
             exit 1
           fi

@@ -9,8 +9,8 @@ for file in "${required[@]}"; do
   fi
 done
 
-if git ls-files | grep -q '^.codex-repo-context.json$'; then
-  echo "local context artifact is tracked" >&2
+if git ls-files | grep -E '(^|/)\.env$|\.tfstate(\..*)?$'; then
+  echo "sensitive local file pattern is tracked" >&2
   exit 1
 fi
 
