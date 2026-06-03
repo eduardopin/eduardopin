@@ -1,0 +1,5 @@
+.codex-repo-context.json
+.DS_Store
+.env
+*.tfstate
+*.tfstate.*
