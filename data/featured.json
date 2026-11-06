@@ -1,0 +1,84 @@
+{
+  "featured": [
+    {
+      "name": "agenfk-squad",
+      "status": "page live",
+      "note": "A squad of Claude Code agents and a watcher hook that keeps parallel AI sessions honest: context budgets, dispatch limits, independent review and a merge queue. Built on AgenFK.",
+      "details": "Python",
+      "page_url": "https://eduardopin.github.io/agenfk-squad/",
+      "license_note": "Source-available under FSL-1.1-ALv2; converts to Apache 2.0 later."
+    },
+    {
+      "name": "agentcenter",
+      "status": "pre-alpha",
+      "note": "Resource monitor for AI coding sessions on Linux.",
+      "details": "Rust · GTK4 · page coming",
+      "page_url": null,
+      "license_note": "MIT license file."
+    },
+    {
+      "name": "aws-iac-enterprise-library",
+      "status": "reference library",
+      "note": "58 reusable Terraform modules with 60 example files and 9 guides.",
+      "details": "HCL",
+      "page_url": null,
+      "license_note": "License not claimed: the repository's license text is incomplete."
+    }
+  ],
+  "reference_groups": [
+    {
+      "name": "Platform & IaC",
+      "description": "Platform patterns, golden paths and an EKS blueprint.",
+      "projects": [
+        "platform-engineering-toolbox",
+        "backstage-golden-path-templates",
+        "aws-eks-platform-blueprint"
+      ]
+    },
+    {
+      "name": "SRE",
+      "description": "Operational readiness, observability, SLO and incident material.",
+      "projects": [
+        "sre-ops-runbooks",
+        "sre-observability-slo-stack"
+      ]
+    },
+    {
+      "name": "FinOps",
+      "description": "Cost governance and cloud automation patterns.",
+      "projects": [
+        "finops-cloud-automation",
+        "aws-finops-automation-toolkit"
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "description": "Security gates, IaC checks and CI/CD migration guidance.",
+      "projects": [
+        "devsecops-pipeline-templates",
+        "devsecops-iac-security-pipeline",
+        "github-actions-migration-playbook"
+      ]
+    },
+    {
+      "name": "Data & AI",
+      "description": "Public-safe analytics, migration and AI-assisted examples.",
+      "projects": [
+        "cloudfront-athena-cachehit-analytics",
+        "database-cloud-migration-runbooks",
+        "ai-assisted-platform-engineering",
+        "crypto-ai-risk-scoring-framework"
+      ]
+    }
+  ],
+  "older": [
+    {
+      "name": "ScriptsSQL",
+      "note": "Older SQL script library."
+    },
+    {
+      "name": "SQLscripts",
+      "note": "Older SQL script library."
+    }
+  ]
+}

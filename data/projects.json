@@ -1,0 +1,202 @@
+[
+ {
+  "created": "2026-10-21",
+  "description": "Resource monitor for AI coding sessions on Linux. Pre-alpha; source publication pending.",
+  "language": "Rust",
+  "license": null,
+  "name": "agentcenter",
+  "pushed": "2026-11-05",
+  "url": "https://github.com/eduardopin/agentcenter",
+  "license_api": "MIT | LICENSE"
+ },
+ {
+  "created": "2026-10-12",
+  "description": "A squad of Claude Code agents and a watcher hook that keeps parallel AI sessions honest: context budgets, dispatch limits, independent review and a merge queue. Built on AgenFK.",
+  "language": "Python",
+  "license": null,
+  "name": "agenfk-squad",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/agenfk-squad",
+  "license_api": "NOASSERTION | LICENSE"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "AWS Terraform utility library with 50+ reusable resource modules, examples, guardrails, docs and visual portfolio polish.",
+  "language": "HCL",
+  "license": null,
+  "name": "aws-iac-enterprise-library",
+  "pushed": "2026-06-03",
+  "url": "https://github.com/eduardopin/aws-iac-enterprise-library",
+  "license_api": "NOASSERTION | LICENSE"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "Public profile README for Eduardo Pin \u2014 Cloud, Platform Engineering, SRE, FinOps and DevSecOps",
+  "language": "Shell",
+  "license": null,
+  "name": "eduardopin",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/eduardopin",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "Reusable CI/CD security gates for IaC scanning, container scanning, secret safety and policy-as-code.",
+  "language": "Shell",
+  "license": null,
+  "name": "devsecops-pipeline-templates",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/devsecops-pipeline-templates",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "Cost governance, tagging policy, shutdown automation, budget review and cloud optimization patterns.",
+  "language": "Shell",
+  "license": null,
+  "name": "finops-cloud-automation",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/finops-cloud-automation",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "Golden paths, service templates, platform standards and developer enablement patterns.",
+  "language": "Shell",
+  "license": null,
+  "name": "platform-engineering-toolbox",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/platform-engineering-toolbox",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "SLO templates, incident response, postmortems, operational readiness and production support patterns.",
+  "language": "Shell",
+  "license": null,
+  "name": "sre-ops-runbooks",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/sre-ops-runbooks",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "AI-assisted platform engineering examples for PR review, Terraform review, incident summaries, runbook drafting and engineering workflows.",
+  "language": "Shell",
+  "license": null,
+  "name": "ai-assisted-platform-engineering",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/ai-assisted-platform-engineering",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "AWS EKS platform blueprint with Terraform, Karpenter, Argo CD, External Secrets, observability and security guardrails.",
+  "language": "Shell",
+  "license": null,
+  "name": "aws-eks-platform-blueprint",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/aws-eks-platform-blueprint",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "AWS FinOps automation toolkit with Cost Explorer patterns, Infracost, Cloud Custodian and scheduled shutdown/start controls.",
+  "language": "Shell",
+  "license": null,
+  "name": "aws-finops-automation-toolkit",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/aws-finops-automation-toolkit",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "Backstage golden path templates for microservices, APIs, jobs, Terraform modules and Kubernetes deployments.",
+  "language": "Shell",
+  "license": null,
+  "name": "backstage-golden-path-templates",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/backstage-golden-path-templates",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "CloudFront cache-hit analytics using Athena SQL, Glue table patterns, dashboards and performance/cost analysis.",
+  "language": "Shell",
+  "license": null,
+  "name": "cloudfront-athena-cachehit-analytics",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/cloudfront-athena-cachehit-analytics",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "Sanitized AI-based crypto risk scoring framework with FastAPI, Pydantic, data collection, scoring and report generation patterns.",
+  "language": "Shell",
+  "license": null,
+  "name": "crypto-ai-risk-scoring-framework",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/crypto-ai-risk-scoring-framework",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "Database cloud migration and HA/DR runbooks for Oracle, SQL Server, PostgreSQL, Aurora, RDS and DMS.",
+  "language": "Shell",
+  "license": null,
+  "name": "database-cloud-migration-runbooks",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/database-cloud-migration-runbooks",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "DevSecOps IaC pipeline using Terraform, Checkov, Trivy, Semgrep, OPA and SARIF-oriented reporting.",
+  "language": "Shell",
+  "license": null,
+  "name": "devsecops-iac-security-pipeline",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/devsecops-iac-security-pipeline",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "Bitbucket/Jenkins to GitHub Actions migration playbook with reusable workflows, OIDC, environments, approvals and DevSecOps gates.",
+  "language": "Shell",
+  "license": null,
+  "name": "github-actions-migration-playbook",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/github-actions-migration-playbook",
+  "license_api": "none"
+ },
+ {
+  "created": "2026-06-03",
+  "description": "SRE observability stack with Prometheus, Grafana, OpenTelemetry, SLOs, alerting rules, runbooks and incident review.",
+  "language": "Shell",
+  "license": null,
+  "name": "sre-observability-slo-stack",
+  "pushed": "2026-11-06",
+  "url": "https://github.com/eduardopin/sre-observability-slo-stack",
+  "license_api": "none"
+ },
+ {
+  "created": "2017-06-19",
+  "description": "Repositorio Para novos Scripts SQL",
+  "language": null,
+  "license": null,
+  "name": "ScriptsSQL",
+  "pushed": "2026-06-03",
+  "url": "https://github.com/eduardopin/ScriptsSQL",
+  "license_api": "none"
+ },
+ {
+  "created": "2017-06-13",
+  "description": "Library of SQL scripts",
+  "language": "TSQL",
+  "license": null,
+  "name": "SQLscripts",
+  "pushed": "2026-06-03",
+  "url": "https://github.com/eduardopin/SQLscripts",
+  "license_api": "none"
+ }
+]
