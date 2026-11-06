@@ -10,10 +10,10 @@
     },
     {
       "name": "agentcenter",
-      "status": "pre-alpha",
+      "status": "page live",
       "note": "Resource monitor for AI coding sessions on Linux.",
-      "details": "Rust · GTK4 · page coming",
-      "page_url": null,
+      "details": "Rust · GTK4 · pre-alpha",
+      "page_url": "https://eduardopin.github.io/agentcenter/",
       "license_note": "MIT license file."
     },
     {
