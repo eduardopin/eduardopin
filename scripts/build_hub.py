@@ -87,6 +87,11 @@ def featured_cards(
     for item in featured:
         project = by_name[str(item["name"])]
         destination = item["page_url"] or project["url"]
+        source_link = (
+            f'\n          <p class="card-links"><a href="{escape(project["url"])}">Source on GitHub</a></p>'
+            if item["page_url"]
+            else ""
+        )
         cards.append(
             f'''        <article class="feature-card">
           <div class="card-topline">
@@ -95,7 +100,7 @@ def featured_cards(
           </div>
           <h3><a href="{escape(destination)}">{escape(project["name"])}</a></h3>
           <p>{escape(item["note"])}</p>
-          <p class="license-note">{escape(item["license_note"])}</p>
+          <p class="license-note">{escape(item["license_note"])}</p>{source_link}
         </article>'''
         )
     return "\n".join(cards)

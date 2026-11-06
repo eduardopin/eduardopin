@@ -4,9 +4,9 @@ Cloud, Platform Engineering, SRE, FinOps and DevSecOps. This profile collects pu
 
 ## Featured
 
-- [agenfk-squad](https://github.com/eduardopin/agenfk-squad) — `page live` — A squad of Claude Code agents with context budgets, dispatch limits, independent review and a merge queue. Built on AgenFK.
+- [agenfk-squad](https://eduardopin.github.io/agenfk-squad/) ([source](https://github.com/eduardopin/agenfk-squad)) — `page live` — A squad of Claude Code agents with context budgets, dispatch limits, independent review and a merge queue. Built on AgenFK.
 - [agentcenter](https://github.com/eduardopin/agentcenter) — `pre-alpha` — A Rust and GTK4 resource monitor for AI coding sessions on Linux; page coming.
-- [aws-iac-enterprise-library](https://github.com/eduardopin/aws-iac-enterprise-library) — `reference library` — 58 reusable Terraform modules with 60 example files and 9 guides.
+- [aws-iac-enterprise-library](https://eduardopin.github.io/aws-iac-enterprise-library/) ([source](https://github.com/eduardopin/aws-iac-enterprise-library)) — `page live` — 58 reusable Terraform modules with 60 example files and 9 guides.
 
 See the projects as a focused portfolio on the [portfolio hub](https://eduardopin.github.io/eduardopin/).
 
@@ -18,7 +18,7 @@ See the projects as a focused portfolio on the [portfolio hub](https://eduardopi
 | --- | --- | --- | --- | --- |
 | [agenfk-squad](https://github.com/eduardopin/agenfk-squad) | Featured · page live | Python | A squad of Claude Code agents and a watcher hook that keeps parallel AI sessions honest: context budgets, dispatch limits, independent review and a merge queue. Built on AgenFK. | Source-available under FSL-1.1-ALv2; converts to Apache 2.0 later. |
 | [agentcenter](https://github.com/eduardopin/agentcenter) | Featured · pre-alpha | Rust | Resource monitor for AI coding sessions on Linux. | MIT license file. |
-| [aws-iac-enterprise-library](https://github.com/eduardopin/aws-iac-enterprise-library) | Featured · reference library | HCL | 58 reusable Terraform modules with 60 example files and 9 guides. | License not claimed: the repository's license text is incomplete. |
+| [aws-iac-enterprise-library](https://github.com/eduardopin/aws-iac-enterprise-library) | Featured · page live | HCL | 58 reusable Terraform modules with 60 example files and 9 guides. | License not claimed: the repository's license text is incomplete. |
 | [platform-engineering-toolbox](https://github.com/eduardopin/platform-engineering-toolbox) | Platform & IaC | Shell | Golden paths, service templates, platform standards and developer enablement patterns. | No license file yet. |
 | [backstage-golden-path-templates](https://github.com/eduardopin/backstage-golden-path-templates) | Platform & IaC | Shell | Backstage golden path templates for microservices, APIs, jobs, Terraform modules and Kubernetes deployments. | No license file yet. |
 | [aws-eks-platform-blueprint](https://github.com/eduardopin/aws-eks-platform-blueprint) | Platform & IaC | Shell | AWS EKS platform blueprint with Terraform, Karpenter, Argo CD, External Secrets, observability and security guardrails. | No license file yet. |
