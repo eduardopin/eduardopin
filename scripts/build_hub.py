@@ -288,7 +288,7 @@ def featured_cards(featured: list[dict[str, object]], by_name: dict[str, dict[st
           <p>{escape(item["note"])}</p>
           <div class="po-card__actions">
             <a class="po-btn po-btn--star" href="{escape(repo)}">{STAR_ICON}<span>Star on GitHub</span></a>
-            <a class="hub-stars" href="{escape(repo)}/stargazers"><img src="{escape(stars)}" width="76" height="20" alt="GitHub stars for {escape(name)}"></a>
+            <a class="hub-stars" href="{escape(repo)}"><img src="{escape(stars)}" width="76" height="20" alt="GitHub stars for {escape(name)}"></a>
             <a class="po-btn po-btn--ghost" href="{escape(repo)}">Source</a>
           </div>
           <p class="po-card__license">{escape(item["license_note"])}</p>
