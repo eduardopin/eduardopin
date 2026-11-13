@@ -9,6 +9,7 @@ on:
       - "site/**"
       - "data/**"
       - "scripts/build_hub.py"
+      - "design-system/**"
   workflow_dispatch:
 
 permissions:
