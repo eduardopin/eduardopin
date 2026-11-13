@@ -301,9 +301,9 @@ def slug(value: object) -> str:
     return str(value).lower().replace(" & ", "-").replace(" ", "-")
 
 
-def project_row(project: dict[str, object], description: object, language: str) -> str:
+def project_row(project: dict[str, object], description: object, language: str, level: int = 4) -> str:
     return f'''            <li class="hub-row">
-              <h4><a href="{escape(project["url"])}">{escape(project["name"])}</a></h4>
+              <h{level}><a href="{escape(project["url"])}">{escape(project["name"])}</a></h{level}>
               <p>{escape(description)}</p>
               <p class="hub-row__meta"><span>{escape(language)}</span><span>no license file yet</span></p>
             </li>'''
@@ -332,7 +332,7 @@ def reference_groups(groups: list[dict[str, object]], by_name: dict[str, dict[st
 
 def older_projects(items: list[dict[str, object]], by_name: dict[str, dict[str, object]]) -> str:
     return "\n".join(
-        project_row(by_name[str(item["name"])], item["note"], f'{by_name[str(item["name"])]["language"] or "SQL"} · older')
+        project_row(by_name[str(item["name"])], item["note"], f'{by_name[str(item["name"])]["language"] or "SQL"} · older', level=3)
         for item in items
     )
 

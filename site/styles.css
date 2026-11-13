@@ -40,9 +40,9 @@ html, body { overflow-x: clip; }
 .hub-rows { list-style: none; margin: 0; padding: 0; }
 .hub-row { padding-block: var(--space-4); border-top: 1px solid var(--line); }
 .hub-row:first-child { border-top: 0; padding-top: 0; }
-.hub-row h4 { margin: 0; font-size: 17px; line-height: 1.3; font-weight: 680; overflow-wrap: anywhere; }
-.hub-row h4 a { color: var(--ink); text-decoration: none; }
-.hub-row h4 a:hover { text-decoration: underline; }
+.hub-row h3, .hub-row h4 { margin: 0; font-size: 17px; line-height: 1.3; font-weight: 680; overflow-wrap: anywhere; }
+.hub-row :is(h3, h4) a { color: var(--ink); text-decoration: none; }
+.hub-row :is(h3, h4) a:hover { text-decoration: underline; }
 .hub-row p { margin: var(--space-1) 0 0; color: var(--ink-muted); }
 .hub-row__meta { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-4); font-family: var(--font-mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
 .hub-rows--older { border-top: 1px solid var(--line); padding-top: var(--space-4); max-width: 62ch; }
