@@ -1,5 +1,7 @@
 # Eduardo Pin
 
+Website: [eduardopin.github.io/eduardopin](https://eduardopin.github.io/eduardopin/)
+
 Cloud, Platform Engineering, SRE, FinOps and DevSecOps. This profile collects public-safe examples, operational guidance and a small set of developer tools.
 
 ## Featured
@@ -17,7 +19,7 @@ See the projects as a focused portfolio on the [portfolio hub](https://eduardopi
 | Project | Area | Language | Summary | License note |
 | --- | --- | --- | --- | --- |
 | [agenfk-squad](https://github.com/eduardopin/agenfk-squad) | Featured · page live | Python | A squad of Claude Code agents and a watcher hook that keeps parallel AI sessions honest: context budgets, dispatch limits, independent review and a merge queue. Built on AgenFK. | Source-available under FSL-1.1-ALv2; converts to Apache 2.0 later. |
-| [agentcenter](https://github.com/eduardopin/agentcenter) | Featured · page live | Rust | Resource monitor for AI coding sessions on Linux. | MIT license file. |
+| [agentcenter](https://github.com/eduardopin/agentcenter) | Featured · page live | Rust | Resource monitor for AI coding sessions on Linux. | Free software under AGPL-3.0-or-later. |
 | [aws-iac-enterprise-library](https://github.com/eduardopin/aws-iac-enterprise-library) | Featured · page live | HCL | 58 reusable Terraform modules with 60 example files and 9 guides. | License not claimed: the repository's license text is incomplete. |
 | [platform-engineering-toolbox](https://github.com/eduardopin/platform-engineering-toolbox) | Platform & IaC | Shell | Golden paths, service templates, platform standards and developer enablement patterns. | No license file yet. |
 | [backstage-golden-path-templates](https://github.com/eduardopin/backstage-golden-path-templates) | Platform & IaC | Shell | Backstage golden path templates for microservices, APIs, jobs, Terraform modules and Kubernetes deployments. | No license file yet. |
