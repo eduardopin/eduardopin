@@ -3,308 +3,318 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eduardo Pin — Portfolio hub</title>
-  <meta name="description" content="Public-safe projects and operational references across Cloud, Platform Engineering, SRE, FinOps and DevSecOps.">
+  <title>Eduardo Pin — Cloud, platform, SRE, FinOps and DevSecOps</title>
+  <meta name="description" content="Cloud, platform engineering, SRE, FinOps and DevSecOps work by Eduardo Pin: three open-source tools and public-safe reference examples.">
   <link rel="canonical" href="https://eduardopin.github.io/eduardopin/">
+  <meta name="theme-color" content="#f3f3f0" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#101214" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Eduardo Pin — Portfolio hub">
-  <meta property="og:description" content="Projects and operational references across Cloud, Platform Engineering, SRE, FinOps and DevSecOps.">
+  <meta property="og:site_name" content="Eduardo Pin">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="Eduardo Pin — Cloud, platform, SRE, FinOps and DevSecOps">
+  <meta property="og:description" content="Cloud, platform engineering, SRE, FinOps and DevSecOps work by Eduardo Pin: three open-source tools and public-safe reference examples.">
   <meta property="og:url" content="https://eduardopin.github.io/eduardopin/">
   <meta property="og:image" content="https://eduardopin.github.io/eduardopin/og.png">
-  <meta property="og:image:width" content="1280">
-  <meta property="og:image:height" content="640">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Eduardo Pin: AgenFK Squad, AgentCenter and AWS IaC Enterprise Library">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Eduardo Pin — Portfolio hub">
-  <meta name="twitter:description" content="Projects and operational references across Cloud, Platform Engineering, SRE, FinOps and DevSecOps.">
+  <meta name="twitter:title" content="Eduardo Pin — Cloud, platform, SRE, FinOps and DevSecOps">
+  <meta name="twitter:description" content="Cloud, platform engineering, SRE, FinOps and DevSecOps work by Eduardo Pin: three open-source tools and public-safe reference examples.">
   <meta name="twitter:image" content="https://eduardopin.github.io/eduardopin/og.png">
+  <meta name="twitter:image:alt" content="Eduardo Pin: AgenFK Squad, AgentCenter and AWS IaC Enterprise Library">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&amp;family=Martian+Mono:wdth,wght@75..112.5,100..800&amp;display=swap">
+  <link rel="stylesheet" href="assets/pin-open-1.0.0.css">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "https://eduardopin.github.io/eduardopin/",
+  "name": "Eduardo Pin — Cloud, platform, SRE, FinOps and DevSecOps",
+  "inLanguage": "en",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://eduardopin.github.io/eduardopin/#person",
+    "name": "Eduardo Pin",
+    "url": "https://eduardopin.github.io/eduardopin/",
+    "sameAs": [
+      "https://github.com/eduardopin"
+    ],
+    "knowsAbout": [
+      "Cloud infrastructure",
+      "Platform engineering",
+      "Site reliability engineering",
+      "FinOps",
+      "DevSecOps",
+      "Terraform",
+      "AWS"
+    ]
+  },
+  "hasPart": [
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "AgenFK Squad",
+      "url": "https://eduardopin.github.io/agenfk-squad/"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "AgentCenter",
+      "url": "https://eduardopin.github.io/agentcenter/"
+    },
+    {
+      "@type": "SoftwareSourceCode",
+      "name": "AWS IaC Enterprise Library",
+      "url": "https://eduardopin.github.io/aws-iac-enterprise-library/"
+    }
+  ]
+}
+  </script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <a class="monogram" href="#top" aria-label="Back to top">EP</a>
-    <nav aria-label="Primary navigation">
-      <a href="#featured">Featured</a>
-      <a href="#references">References</a>
-      <a href="#older">Older</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <a class="hub-skip" href="#main">Skip to content</a>
+  <header class="po-header">
+    <div class="po-shell po-header__inner">
+      <a class="po-brand" href="#top"><img src="favicon.svg" width="28" height="28" alt=""><span>Eduardo Pin</span></a>
+      <nav class="po-nav" aria-label="Primary navigation"><a href="#featured">Featured</a><a href="#references">References</a><a href="#older">Older</a><a href="#contact">Contact</a></nav>
+      <a class="po-header__gh" href="https://github.com/eduardopin"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg><span>GitHub</span></a>
+    </div>
   </header>
 
   <main id="main">
-    <section class="hero" id="top" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow">Cloud · Platform Engineering · SRE · FinOps · DevSecOps</p>
-        <h1 id="hero-title">Eduardo Pin</h1>
-        <p class="hero-line">Public-safe examples, operational guidance and a small set of developer tools.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#featured">Explore featured projects</a>
-          <a class="button button-secondary" href="https://github.com/eduardopin">GitHub profile</a>
+    <section class="po-hero" id="top" aria-labelledby="hero-title">
+      <div class="po-art" aria-hidden="true"><div class="po-art__haze"></div><svg viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><defs><path id="tr-p0" d="M-20 150 H520 L580 210 H1220" pathLength="100"/><path id="tr-p1" d="M-20 330 H380 L460 410 H820 L860 370 H1220" pathLength="100"/><path id="tr-p2" d="M-20 500 H640 L700 440 H1220" pathLength="100"/><linearGradient id="tr-band" gradientUnits="userSpaceOnUse" x1="0" x2="1200"><stop offset="0" stop-color="currentColor" stop-opacity="0"/><stop offset=".5" stop-color="currentColor" stop-opacity=".1"/><stop offset="1" stop-color="currentColor" stop-opacity="0"/></linearGradient><linearGradient id="tr-line" gradientUnits="userSpaceOnUse" x1="0" x2="1200"><stop offset="0" stop-color="currentColor" stop-opacity=".12"/><stop offset=".25" stop-color="currentColor" stop-opacity=".5"/><stop offset=".5" stop-color="currentColor" stop-opacity=".19"/><stop offset=".75" stop-color="currentColor" stop-opacity=".33"/><stop offset="1" stop-color="currentColor" stop-opacity=".09"/></linearGradient></defs><use href="#tr-p0" class="band" stroke="url(#tr-band)"/><use href="#tr-p1" class="band" stroke="url(#tr-band)"/><use href="#tr-p2" class="band" stroke="url(#tr-band)"/><use href="#tr-p0" class="line" stroke="url(#tr-line)"/><use href="#tr-p1" class="line" stroke="url(#tr-line)"/><use href="#tr-p2" class="line" stroke="url(#tr-line)"/><use href="#tr-p0" class="trail trail-1"/><use href="#tr-p1" class="trail trail-2"/><use href="#tr-p2" class="trail trail-3"/></svg><div class="po-art__veil"></div></div>
+      <div class="po-shell po-hero__grid">
+        <div class="po-hero__copy">
+          <p class="po-label po-hero__eyebrow">Cloud · Platform Engineering · SRE · FinOps · DevSecOps</p>
+          <h1 class="po-display" id="hero-title">Eduardo Pin</h1>
+          <p class="po-hero__lede">Public-safe examples, operational guidance and a small set of developer tools.</p>
+          <div class="po-hero__actions">
+            <a class="po-btn po-btn--primary" href="#featured">Explore featured projects</a>
+            <a class="po-btn po-btn--ghost" href="https://github.com/eduardopin"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>GitHub profile</a>
+          </div>
+        </div>
+        <div class="po-trace-panel" aria-hidden="true">
+          <p class="po-label po-trace-panel__label">profile / work index</p>
+          <span class="po-trace-panel__rule"></span><span class="po-trace-panel__rule"></span><span class="po-trace-panel__rule"></span><span class="po-trace-panel__rule"></span>
         </div>
       </div>
-      <div class="signal" aria-hidden="true">
-        <span class="signal-label">profile / work index</span>
-        <span class="signal-line signal-line-wide"></span>
-        <span class="signal-line"></span>
-        <span class="signal-line signal-line-short"></span>
-        <span class="signal-dot"></span>
-      </div>
     </section>
 
-    <section class="section featured" id="featured" aria-labelledby="featured-title">
-      <div class="section-heading">
-        <p class="kicker">Start here</p>
-        <h2 id="featured-title">Featured projects</h2>
-        <p>Current work, with status and licensing stated plainly.</p>
-      </div>
-      <div class="feature-grid">
-        <article class="feature-card">
-          <div class="card-topline">
-            <span class="status">page live</span>
-            <span class="language">Python</span>
-          </div>
-          <h3><a href="https://eduardopin.github.io/agenfk-squad/">agenfk-squad</a></h3>
+    <section class="hub-section" id="featured" aria-labelledby="featured-title">
+      <div class="po-shell">
+        <div class="hub-section__head">
+          <h2 id="featured-title">Featured projects</h2>
+          <p>Current work, with status and licensing stated plainly.</p>
+        </div>
+        <div class="hub-cards">
+        <article class="po-card hub-card hub-card--green" aria-labelledby="card-agenfk-squad">
+          <div class="po-card__top"><span class="hub-card__badges"><span class="po-stat po-stat--live po-label"><span class="po-stat__dot"></span>page live</span></span><span class="po-label">Python</span></div>
+          <div class="hub-card__id"><img src="img/marks/agenfk-squad.svg" width="28" height="28" alt=""><span class="po-card__hue" aria-hidden="true"></span></div>
+          <h3 id="card-agenfk-squad"><a href="https://eduardopin.github.io/agenfk-squad/">agenfk-squad</a></h3>
           <p>A squad of Claude Code agents and a watcher hook that keeps parallel AI sessions honest: context budgets, dispatch limits, independent review and a merge queue. Built on AgenFK.</p>
-          <p class="license-note">Source-available under FSL-1.1-ALv2; converts to Apache 2.0 later.</p>
-          <p class="card-links"><a href="https://github.com/eduardopin/agenfk-squad">Source on GitHub</a></p>
-        </article>
-        <article class="feature-card">
-          <div class="card-topline">
-            <span class="status">page live</span>
-            <span class="language">Rust · GTK4 · pre-alpha</span>
+          <div class="po-card__actions">
+            <a class="po-btn po-btn--star" href="https://github.com/eduardopin/agenfk-squad"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.8l2.8 5.7 6.3.9-4.6 4.4 1.1 6.2L12 17.1 6.4 20l1.1-6.2L2.9 9.4l6.3-.9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span>Star on GitHub</span></a>
+            <a class="hub-stars" href="https://github.com/eduardopin/agenfk-squad/stargazers"><img src="https://img.shields.io/github/stars/eduardopin/agenfk-squad?style=flat&amp;label=stars" width="76" height="20" alt="GitHub stars for agenfk-squad"></a>
+            <a class="po-btn po-btn--ghost" href="https://github.com/eduardopin/agenfk-squad">Source</a>
           </div>
-          <h3><a href="https://eduardopin.github.io/agentcenter/">agentcenter</a></h3>
+          <p class="po-card__license">Source-available under FSL-1.1-ALv2; converts to Apache 2.0 later.</p>
+        </article>
+        <article class="po-card hub-card hub-card--amber" aria-labelledby="card-agentcenter">
+          <div class="po-card__top"><span class="hub-card__badges"><span class="po-stat po-stat--live po-label"><span class="po-stat__dot"></span>page live</span><span class="po-stat po-stat--alpha po-label"><span class="po-stat__dot"></span>pre-alpha</span></span><span class="po-label">Rust · GTK4</span></div>
+          <div class="hub-card__id"><img src="img/marks/agentcenter.svg" width="28" height="28" alt=""><span class="po-card__hue" aria-hidden="true"></span></div>
+          <h3 id="card-agentcenter"><a href="https://eduardopin.github.io/agentcenter/">agentcenter</a></h3>
           <p>Resource monitor for AI coding sessions on Linux.</p>
-          <p class="license-note">MIT license file.</p>
-          <p class="card-links"><a href="https://github.com/eduardopin/agentcenter">Source on GitHub</a></p>
-        </article>
-        <article class="feature-card">
-          <div class="card-topline">
-            <span class="status">page live</span>
-            <span class="language">HCL · reference library</span>
+          <div class="po-card__actions">
+            <a class="po-btn po-btn--star" href="https://github.com/eduardopin/agentcenter"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.8l2.8 5.7 6.3.9-4.6 4.4 1.1 6.2L12 17.1 6.4 20l1.1-6.2L2.9 9.4l6.3-.9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span>Star on GitHub</span></a>
+            <a class="hub-stars" href="https://github.com/eduardopin/agentcenter/stargazers"><img src="https://img.shields.io/github/stars/eduardopin/agentcenter?style=flat&amp;label=stars" width="76" height="20" alt="GitHub stars for agentcenter"></a>
+            <a class="po-btn po-btn--ghost" href="https://github.com/eduardopin/agentcenter">Source</a>
           </div>
-          <h3><a href="https://eduardopin.github.io/aws-iac-enterprise-library/">aws-iac-enterprise-library</a></h3>
+          <p class="po-card__license">Free software under AGPL-3.0-or-later.</p>
+        </article>
+        <article class="po-card hub-card hub-card--violet" aria-labelledby="card-aws-iac-enterprise-library">
+          <div class="po-card__top"><span class="hub-card__badges"><span class="po-stat po-stat--live po-label"><span class="po-stat__dot"></span>page live</span></span><span class="po-label">HCL · reference library</span></div>
+          <div class="hub-card__id"><img src="img/marks/aws-iac.svg" width="28" height="28" alt=""><span class="po-card__hue" aria-hidden="true"></span></div>
+          <h3 id="card-aws-iac-enterprise-library"><a href="https://eduardopin.github.io/aws-iac-enterprise-library/">aws-iac-enterprise-library</a></h3>
           <p>58 reusable Terraform modules with 60 example files and 9 guides.</p>
-          <p class="license-note">License not claimed: the repository&#x27;s license text is incomplete.</p>
-          <p class="card-links"><a href="https://github.com/eduardopin/aws-iac-enterprise-library">Source on GitHub</a></p>
+          <div class="po-card__actions">
+            <a class="po-btn po-btn--star" href="https://github.com/eduardopin/aws-iac-enterprise-library"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.8l2.8 5.7 6.3.9-4.6 4.4 1.1 6.2L12 17.1 6.4 20l1.1-6.2L2.9 9.4l6.3-.9z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><span>Star on GitHub</span></a>
+            <a class="hub-stars" href="https://github.com/eduardopin/aws-iac-enterprise-library/stargazers"><img src="https://img.shields.io/github/stars/eduardopin/aws-iac-enterprise-library?style=flat&amp;label=stars" width="76" height="20" alt="GitHub stars for aws-iac-enterprise-library"></a>
+            <a class="po-btn po-btn--ghost" href="https://github.com/eduardopin/aws-iac-enterprise-library">Source</a>
+          </div>
+          <p class="po-card__license">License not claimed: the repository&#x27;s license text is incomplete.</p>
         </article>
+        </div>
       </div>
     </section>
 
-    <section class="section references" id="references" aria-labelledby="references-title">
-      <div class="section-heading">
-        <p class="kicker">Working material</p>
-        <h2 id="references-title">Reference examples</h2>
-        <p>Public-safe examples and runbooks with generic placeholders and no proprietary details.</p>
-      </div>
-      <div class="theme-stack">
-        <section class="theme-group" aria-labelledby="platform-iac">
-          <div class="theme-heading">
-            <p class="section-index" aria-hidden="true">01</p>
-            <div>
-              <h3 id="platform-iac">Platform &amp; IaC</h3>
-              <p>Platform patterns, golden paths and an EKS blueprint.</p>
-            </div>
+    <section class="hub-section" id="references" aria-labelledby="references-title">
+      <div class="po-shell">
+        <div class="hub-section__head">
+          <h2 id="references-title">Reference examples</h2>
+          <p>Public-safe examples and runbooks with generic placeholders and no proprietary details.</p>
+        </div>
+        <section class="hub-group" aria-labelledby="platform-iac">
+          <div class="hub-group__head">
+            <h3 id="platform-iac">Platform &amp; IaC</h3>
+            <p>Platform patterns, golden paths and an EKS blueprint.</p>
           </div>
-          <ul class="project-list">
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/platform-engineering-toolbox">platform-engineering-toolbox</a></h4>
-                <p>Golden paths, service templates, platform standards and developer enablement patterns.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/backstage-golden-path-templates">backstage-golden-path-templates</a></h4>
-                <p>Backstage golden path templates for microservices, APIs, jobs, Terraform modules and Kubernetes deployments.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/aws-eks-platform-blueprint">aws-eks-platform-blueprint</a></h4>
-                <p>AWS EKS platform blueprint with Terraform, Karpenter, Argo CD, External Secrets, observability and security guardrails.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
+          <ul class="hub-rows">
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/platform-engineering-toolbox">platform-engineering-toolbox</a></h4>
+              <p>Golden paths, service templates, platform standards and developer enablement patterns.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/backstage-golden-path-templates">backstage-golden-path-templates</a></h4>
+              <p>Backstage golden path templates for microservices, APIs, jobs, Terraform modules and Kubernetes deployments.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/aws-eks-platform-blueprint">aws-eks-platform-blueprint</a></h4>
+              <p>AWS EKS platform blueprint with Terraform, Karpenter, Argo CD, External Secrets, observability and security guardrails.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
           </ul>
         </section>
-        <section class="theme-group" aria-labelledby="sre">
-          <div class="theme-heading">
-            <p class="section-index" aria-hidden="true">02</p>
-            <div>
-              <h3 id="sre">SRE</h3>
-              <p>Operational readiness, observability, SLO and incident material.</p>
-            </div>
+        <section class="hub-group" aria-labelledby="sre">
+          <div class="hub-group__head">
+            <h3 id="sre">SRE</h3>
+            <p>Operational readiness, observability, SLO and incident material.</p>
           </div>
-          <ul class="project-list">
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/sre-ops-runbooks">sre-ops-runbooks</a></h4>
-                <p>SLO templates, incident response, postmortems, operational readiness and production support patterns.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/sre-observability-slo-stack">sre-observability-slo-stack</a></h4>
-                <p>SRE observability stack with Prometheus, Grafana, OpenTelemetry, SLOs, alerting rules, runbooks and incident review.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
+          <ul class="hub-rows">
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/sre-ops-runbooks">sre-ops-runbooks</a></h4>
+              <p>SLO templates, incident response, postmortems, operational readiness and production support patterns.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/sre-observability-slo-stack">sre-observability-slo-stack</a></h4>
+              <p>SRE observability stack with Prometheus, Grafana, OpenTelemetry, SLOs, alerting rules, runbooks and incident review.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
           </ul>
         </section>
-        <section class="theme-group" aria-labelledby="finops">
-          <div class="theme-heading">
-            <p class="section-index" aria-hidden="true">03</p>
-            <div>
-              <h3 id="finops">FinOps</h3>
-              <p>Cost governance and cloud automation patterns.</p>
-            </div>
+        <section class="hub-group" aria-labelledby="finops">
+          <div class="hub-group__head">
+            <h3 id="finops">FinOps</h3>
+            <p>Cost governance and cloud automation patterns.</p>
           </div>
-          <ul class="project-list">
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/finops-cloud-automation">finops-cloud-automation</a></h4>
-                <p>Cost governance, tagging policy, shutdown automation, budget review and cloud optimization patterns.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/aws-finops-automation-toolkit">aws-finops-automation-toolkit</a></h4>
-                <p>AWS FinOps automation toolkit with Cost Explorer patterns, Infracost, Cloud Custodian and scheduled shutdown/start controls.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
+          <ul class="hub-rows">
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/finops-cloud-automation">finops-cloud-automation</a></h4>
+              <p>Cost governance, tagging policy, shutdown automation, budget review and cloud optimization patterns.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/aws-finops-automation-toolkit">aws-finops-automation-toolkit</a></h4>
+              <p>AWS FinOps automation toolkit with Cost Explorer patterns, Infracost, Cloud Custodian and scheduled shutdown/start controls.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
           </ul>
         </section>
-        <section class="theme-group" aria-labelledby="devsecops">
-          <div class="theme-heading">
-            <p class="section-index" aria-hidden="true">04</p>
-            <div>
-              <h3 id="devsecops">DevSecOps</h3>
-              <p>Security gates, IaC checks and CI/CD migration guidance.</p>
-            </div>
+        <section class="hub-group" aria-labelledby="devsecops">
+          <div class="hub-group__head">
+            <h3 id="devsecops">DevSecOps</h3>
+            <p>Security gates, IaC checks and CI/CD migration guidance.</p>
           </div>
-          <ul class="project-list">
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/devsecops-pipeline-templates">devsecops-pipeline-templates</a></h4>
-                <p>Reusable CI/CD security gates for IaC scanning, container scanning, secret safety and policy-as-code.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/devsecops-iac-security-pipeline">devsecops-iac-security-pipeline</a></h4>
-                <p>DevSecOps IaC pipeline using Terraform, Checkov, Trivy, Semgrep, OPA and SARIF-oriented reporting.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/github-actions-migration-playbook">github-actions-migration-playbook</a></h4>
-                <p>Bitbucket/Jenkins to GitHub Actions migration playbook with reusable workflows, OIDC, environments, approvals and DevSecOps gates.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
+          <ul class="hub-rows">
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/devsecops-pipeline-templates">devsecops-pipeline-templates</a></h4>
+              <p>Reusable CI/CD security gates for IaC scanning, container scanning, secret safety and policy-as-code.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/devsecops-iac-security-pipeline">devsecops-iac-security-pipeline</a></h4>
+              <p>DevSecOps IaC pipeline using Terraform, Checkov, Trivy, Semgrep, OPA and SARIF-oriented reporting.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/github-actions-migration-playbook">github-actions-migration-playbook</a></h4>
+              <p>Bitbucket/Jenkins to GitHub Actions migration playbook with reusable workflows, OIDC, environments, approvals and DevSecOps gates.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
           </ul>
         </section>
-        <section class="theme-group" aria-labelledby="data-ai">
-          <div class="theme-heading">
-            <p class="section-index" aria-hidden="true">05</p>
-            <div>
-              <h3 id="data-ai">Data &amp; AI</h3>
-              <p>Public-safe analytics, migration and AI-assisted examples.</p>
-            </div>
+        <section class="hub-group" aria-labelledby="data-ai">
+          <div class="hub-group__head">
+            <h3 id="data-ai">Data &amp; AI</h3>
+            <p>Public-safe analytics, migration and AI-assisted examples.</p>
           </div>
-          <ul class="project-list">
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/cloudfront-athena-cachehit-analytics">cloudfront-athena-cachehit-analytics</a></h4>
-                <p>CloudFront cache-hit analytics using Athena SQL, Glue table patterns, dashboards and performance/cost analysis.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/database-cloud-migration-runbooks">database-cloud-migration-runbooks</a></h4>
-                <p>Database cloud migration and HA/DR runbooks for Oracle, SQL Server, PostgreSQL, Aurora, RDS and DMS.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/ai-assisted-platform-engineering">ai-assisted-platform-engineering</a></h4>
-                <p>AI-assisted platform engineering examples for PR review, Terraform review, incident summaries, runbook drafting and engineering workflows.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
-              <li class="project-row">
-                <h4><a href="https://github.com/eduardopin/crypto-ai-risk-scoring-framework">crypto-ai-risk-scoring-framework</a></h4>
-                <p>Sanitized AI-based crypto risk scoring framework with FastAPI, Pydantic, data collection, scoring and report generation patterns.</p>
-                <div class="project-meta">
-                  <span>Shell</span>
-                  <span class="license-label">no license file yet</span>
-                </div>
-              </li>
+          <ul class="hub-rows">
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/cloudfront-athena-cachehit-analytics">cloudfront-athena-cachehit-analytics</a></h4>
+              <p>CloudFront cache-hit analytics using Athena SQL, Glue table patterns, dashboards and performance/cost analysis.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/database-cloud-migration-runbooks">database-cloud-migration-runbooks</a></h4>
+              <p>Database cloud migration and HA/DR runbooks for Oracle, SQL Server, PostgreSQL, Aurora, RDS and DMS.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/ai-assisted-platform-engineering">ai-assisted-platform-engineering</a></h4>
+              <p>AI-assisted platform engineering examples for PR review, Terraform review, incident summaries, runbook drafting and engineering workflows.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/crypto-ai-risk-scoring-framework">crypto-ai-risk-scoring-framework</a></h4>
+              <p>Sanitized AI-based crypto risk scoring framework with FastAPI, Pydantic, data collection, scoring and report generation patterns.</p>
+              <p class="hub-row__meta"><span>Shell</span><span>no license file yet</span></p>
+            </li>
           </ul>
         </section>
       </div>
     </section>
 
-    <section class="section older" id="older" aria-labelledby="older-title">
-      <div class="section-heading">
-        <p class="kicker">Archive</p>
-        <h2 id="older-title">Older</h2>
-        <p>SQL script libraries created in 2017, listed separately from current work.</p>
+    <section class="hub-section" id="older" aria-labelledby="older-title">
+      <div class="po-shell">
+        <div class="hub-section__head">
+          <h2 id="older-title">Older</h2>
+          <p>SQL script libraries created in 2017, listed separately from current work.</p>
+        </div>
+        <ul class="hub-rows hub-rows--older">
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/ScriptsSQL">ScriptsSQL</a></h4>
+              <p>Older SQL script library.</p>
+              <p class="hub-row__meta"><span>SQL · older</span><span>no license file yet</span></p>
+            </li>
+            <li class="hub-row">
+              <h4><a href="https://github.com/eduardopin/SQLscripts">SQLscripts</a></h4>
+              <p>Older SQL script library.</p>
+              <p class="hub-row__meta"><span>TSQL · older</span><span>no license file yet</span></p>
+            </li>
+        </ul>
       </div>
-      <ul class="older-grid">
-          <li class="older-card">
-            <h3><a href="https://github.com/eduardopin/ScriptsSQL">ScriptsSQL</a></h3>
-            <p>Older SQL script library.</p>
-            <div class="project-meta">
-              <span>SQL · older</span>
-              <span class="license-label">no license file yet</span>
-            </div>
-          </li>
-          <li class="older-card">
-            <h3><a href="https://github.com/eduardopin/SQLscripts">SQLscripts</a></h3>
-            <p>Older SQL script library.</p>
-            <div class="project-meta">
-              <span>TSQL · older</span>
-              <span class="license-label">no license file yet</span>
-            </div>
-          </li>
-      </ul>
     </section>
 
-    <section class="section contact" id="contact" aria-labelledby="contact-title">
-      <p class="kicker">Contact / follow</p>
-      <h2 id="contact-title">Continue on GitHub</h2>
-      <p>Browse repositories, open an issue or follow updates from the profile.</p>
-      <a class="text-link" href="https://github.com/eduardopin">github.com/eduardopin <span aria-hidden="true">→</span></a>
+    <section class="hub-section hub-contact" id="contact" aria-labelledby="contact-title">
+      <div class="po-shell">
+        <h2 id="contact-title">Continue on GitHub</h2>
+        <p>Browse repositories, open an issue or follow updates from the profile.</p>
+        <p><a class="hub-contact__link" href="https://github.com/eduardopin">github.com/eduardopin <span aria-hidden="true">↗</span></a></p>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>GitHub profile and project navigation for Eduardo Pin.</p>
+  <section class="po-cross" aria-labelledby="cross-title">
+    <div class="po-shell">
+      <h2 class="po-label po-cross__head" id="cross-title">More from Eduardo Pin</h2>
+      <ul class="po-cross__list">
+        <li class="po-cross__item hub-cross--green"><a href="https://eduardopin.github.io/agenfk-squad/"><img src="img/marks/agenfk-squad.svg" width="28" height="28" alt=""><strong>agenfk-squad</strong><span>Guardrails for parallel Claude Code sessions.</span></a></li>
+        <li class="po-cross__item hub-cross--amber"><a href="https://eduardopin.github.io/agentcenter/"><img src="img/marks/agentcenter.svg" width="28" height="28" alt=""><strong>AgentCenter</strong><span>Resource monitor for AI coding sessions on Linux.</span></a></li>
+        <li class="po-cross__item hub-cross--violet"><a href="https://eduardopin.github.io/aws-iac-enterprise-library/"><img src="img/marks/aws-iac.svg" width="28" height="28" alt=""><strong>AWS IaC Library</strong><span>58 reusable Terraform modules for AWS.</span></a></li>
+      </ul>
+    </div>
+  </section>
+  <footer class="po-footer">
+    <div class="po-shell po-footer__inner">
+      <p>Profile hub of Eduardo Pin, generated from this repository's data files. No analytics.</p>
+      <nav aria-label="Footer navigation"><a href="https://github.com/eduardopin">GitHub profile</a><a href="https://github.com/eduardopin/eduardopin">Source of this page</a><a href="#top">Back to top</a></nav>
+    </div>
   </footer>
 </body>
 </html>
