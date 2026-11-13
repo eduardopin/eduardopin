@@ -32,10 +32,11 @@ Pages load both from Google Fonts with `display=swap` and a `preconnect`. Self-h
 
 ## Changes from the Design System artifact (first publish, 2026-11-13)
 
-`tokens.json` is byte-identical to the artifact (sha256 `da2cef49…946696`). `bundle.css` started from the artifact (sha256 `1f9e1fcf…2f4a`) with two changes, both taken from the chosen direction A ("Trace") in the directions prototype:
+`tokens.json` is byte-identical to the artifact (sha256 `da2cef49…946696`). `bundle.css` started from the artifact (sha256 `1f9e1fcf…2f4a`) with three changes; the first two come from the chosen direction A ("Trace") in the directions prototype:
 
 1. The dark multipliers of the light layer read theme variables (`--art-line-filter`, `--haze-mult`, `--sweep-strength`) instead of `[data-theme="dark"]` selectors, so they also apply when dark comes from `prefers-color-scheme` and no `data-theme` is set. The compiler emits those three variables per theme from the `opacity` notes (lines ×1.65, haze ×0.8, sweep at `sweep-dark`).
 2. The three trails read their strengths `art-trail-1`/`-2`/`-3` (0.5, 0.38, 0.3) through `stroke-opacity`, as the light-and-motion rules state.
+3. Two targets reach the 44px floor the system sets for itself: the SiteHeader GitHub link (`min-height` 36px → 44px) and the nav anchors (`padding` 10px → 11px, 42.4px → 44.4px), measured on the hub port.
 
 ---
 
