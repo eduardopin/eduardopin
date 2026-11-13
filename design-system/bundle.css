@@ -1,6 +1,7 @@
 /* Pin Open Source — component styles. Reads tokens.json names as custom properties; no raw colour lives here. */
 
 /* ---------- base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
 body { margin: 0; background: var(--ground); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.6; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
 ::selection { background: var(--accent-fill); color: var(--on-accent); }
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 0.22em; }
