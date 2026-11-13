@@ -1,4 +1,5 @@
 {
+  "site_updated": "2026-11-13",
   "featured": [
     {
       "name": "agenfk-squad",
@@ -6,15 +7,28 @@
       "note": "A squad of Claude Code agents and a watcher hook that keeps parallel AI sessions honest: context budgets, dispatch limits, independent review and a merge queue. Built on AgenFK.",
       "details": "Python",
       "page_url": "https://eduardopin.github.io/agenfk-squad/",
-      "license_note": "Source-available under FSL-1.1-ALv2; converts to Apache 2.0 later."
+      "license_note": "Source-available under FSL-1.1-ALv2; converts to Apache 2.0 later.",
+      "display_name": "agenfk-squad",
+      "hue": "green",
+      "mark": "img/marks/agenfk-squad.svg",
+      "cross_line": "Guardrails for parallel Claude Code sessions.",
+      "schema_type": "SoftwareSourceCode",
+      "schema_name": "AgenFK Squad"
     },
     {
       "name": "agentcenter",
       "status": "page live",
       "note": "Resource monitor for AI coding sessions on Linux.",
-      "details": "Rust · GTK4 · pre-alpha",
+      "details": "Rust · GTK4",
       "page_url": "https://eduardopin.github.io/agentcenter/",
-      "license_note": "MIT license file."
+      "license_note": "Free software under AGPL-3.0-or-later.",
+      "display_name": "AgentCenter",
+      "hue": "amber",
+      "mark": "img/marks/agentcenter.svg",
+      "cross_line": "Resource monitor for AI coding sessions on Linux.",
+      "schema_type": "SoftwareApplication",
+      "schema_name": "AgentCenter",
+      "stage": "pre-alpha"
     },
     {
       "name": "aws-iac-enterprise-library",
@@ -22,7 +36,13 @@
       "note": "58 reusable Terraform modules with 60 example files and 9 guides.",
       "details": "HCL · reference library",
       "page_url": "https://eduardopin.github.io/aws-iac-enterprise-library/",
-      "license_note": "License not claimed: the repository's license text is incomplete."
+      "license_note": "License not claimed: the repository's license text is incomplete.",
+      "display_name": "AWS IaC Library",
+      "hue": "violet",
+      "mark": "img/marks/aws-iac.svg",
+      "cross_line": "58 reusable Terraform modules for AWS.",
+      "schema_type": "SoftwareSourceCode",
+      "schema_name": "AWS IaC Enterprise Library"
     }
   ],
   "reference_groups": [
